@@ -11,7 +11,7 @@ spec:
   rules:
     - http:
         paths:
-          - path: /g
+          - path: /grafana
             pathType: Prefix
             backend:
               service:
